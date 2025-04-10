@@ -25,12 +25,12 @@ export const Header = () => {
           </Link>
 
           {/* 桌面导航 */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="md:flex space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                className="text-gray-600 dark:text-gray-300 hover:text-3xl dark:hover:text-3xl"
               >
                 {item.name}
               </Link>

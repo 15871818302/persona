@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* 自定义样式 */
-@layer base {
+/* @layer base {
   body {
     @apply bg-light dark:bg-dark text-dark dark:text-light;
   }
@@ -21,7 +21,7 @@
   .btn-primary {
     @apply bg-primary text-white hover:bg-primary/80;
   }
-}
+} */
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
