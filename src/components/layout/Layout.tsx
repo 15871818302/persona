@@ -10,10 +10,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow container-blog py-8">
+      {/* <main className="flex-grow container-blog py-8">
         {children}
       </main>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
